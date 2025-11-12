@@ -7,6 +7,7 @@ pub mod types;
 pub mod utils;
 
 use instructions::*;
+use crate::types::*;
 
 declare_id!("FpWSGoETk8YmXu7bEQ1MEAu2nrzS6aU9x4tWkQFRh7XE");
 

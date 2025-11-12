@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 use crate::state::*;
-use crate::errors::*;
+use crate::error::*;
 
 pub fn handle(ctx: Context<Reclaim>) -> Result<()> {
     // TODO: burn logic, transfer cNFT, etc.

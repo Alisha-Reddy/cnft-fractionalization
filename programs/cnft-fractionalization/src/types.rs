@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-#[derive(AnchorSerial, AnchorDeserailize, Clone)]
+#[derive(AnchorSerialize, AnchorDeserialize, Clone)]
 pub struct InitializeFractionalizationArgs{
     pub total_supply: u64,
 }
